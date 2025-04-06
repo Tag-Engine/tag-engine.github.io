@@ -53,6 +53,7 @@ ul li {
   border-radius: 8px;
   font-size: 1rem;
   transition: transform 0.2s ease;
+  cursor: default;
 }
 
 ul li:hover {
