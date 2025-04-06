@@ -1,13 +1,16 @@
-body {
+ * {
+    box-sizing: border-box;
+  }
+
+  html, body {
     margin: 0;
     padding: 0;
+    height: 100%;
     background: linear-gradient(135deg, #00b4d8, #90e0ef);
     font-family: 'Segoe UI', Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    color: #333;
   }
 
   .container {
